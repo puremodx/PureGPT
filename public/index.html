@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PureGPT</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="app">
+<header><div><h1>PureGPT</h1><p>Secure AI chat</p></div><button id="clearBtn" class="secondary">Clear</button></header>
+<section id="chat" class="chat"><div class="message assistant">Hello! How can I help you today?</div></section>
+<form id="chatForm" class="composer">
+<textarea id="prompt" rows="1" placeholder="Message PureGPT..." required></textarea>
+<button id="sendBtn" type="submit">Send</button>
+</form>
+<p id="status" class="status"></p>
+</main>
+<script src="/script.js"></script>
+</body>
+</html>
