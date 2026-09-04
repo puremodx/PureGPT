@@ -1,0 +1,1 @@
+{"$schema":"node_modules/wrangler/config-schema.json","name":"puregpt","main":"src/worker.js","compatibility_date":"2026-09-05","assets":{"directory":"./public","binding":"ASSETS"}}
